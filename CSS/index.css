@@ -1,0 +1,92 @@
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.button-collapse {
+    color: #26a69a;
+}
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (max-width : 1025px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+    .remodal{
+        width: 100%;!important;
+    }
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+     margin: 0;
+}
+
+.bg-preto{
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#resposta_pesquisa{
+    height: 65vh;
+    overflow: auto;
+}
+
+.box_resposta{
+    height: 15vh;
+    border: 1px #9c9c9c solid;
+    margin-top: 1vh;
+    display: flex;
+}
+
+.dark{
+    font-weight:bold; !important;
+    color: black;
+}
+.light{
+    color: #bababa; !important;
+}
+.scroll-auto{
+    overflow-y: auto;
+}
+
+
+
+.pequeno{
+    font-size: 18px;
+}
+
+.op{
+    cursor: pointer;
+    background: #a6a6a6;
+}
+
